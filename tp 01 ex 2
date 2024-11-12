@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){int m[20][20],m1[20][20];
+int i,j,k,X;
+printf("Donner k:");
+scanf("%d",&k);
+for(i=0;i<k;i++){
+for(j=0;j<k;j++){
+printf("Donner m:");
+scanf("%d",&m);
+}
+}
+for(i=0;i<k;i++){
+for(j=1;j<i;j++){
+X=m[i][j];
+m[i][j]=m[j][i];
+m[j][i]=X;
+}
+}
+for(i=0;i<k;i++){
+for(j=0;j<k;j++){
+printf("%d",m1[i][j]);
+}
+}
+return 0;
+}
