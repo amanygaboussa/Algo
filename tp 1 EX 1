@@ -1,0 +1,35 @@
+
+#include<stdio.h>
+int main()
+{ int i,j;
+  m[5][5];     
+            m [5][5]= {'1','2','3','4','5'},
+                      {'7','a','c','8','b'},
+                      {'c','9','4','z','8'},
+                      {'5','6','p','n','3'},
+                      {'2','9','t','m','k'},
+             printf("m=  \n");
+  for(i=0;i<5;i++){
+       for(j=0;j<5;j++){
+           printf("m= /n");
+                       }
+                  }
+  for(i=1;i<5;i+5){
+      for(j=0;j<5;j++){
+           printf("m"= \n);                  
+                      }
+                  }
+  for(i=1;i<5;i++){
+      for(j=0;j<5;j++){
+           if(i==j) 
+              printf ("m= \n);
+                      }
+                 }
+ for(i=0;i=5;i++){
+      for(j=0;j<5;j++){
+          if(i+j==4)
+           printf("m= \n");
+                      }
+                  }
+    return0;
+}
