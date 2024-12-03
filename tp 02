@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+char*ChargerChaine(int N)
+int Longueur(char*ch); 
+void InverserTab(char Tab , char T ,int m );
+void ChargerTab(char*p,char Tab );
+void afficherTab(char Tab ,int m);
+int main(){
+    char*ch ;int n ; printf("veuillez saisir la taille maximale de la chan : \n");
+    scanf("%d",&n); ch=ChargerChaine(n);
+    int m=Longueur(ch);
+    char Tab[m],T[M].
+    ChargerTab(ch,Tab);
+    AfficherTab(Tab,m);
+    InverserTab(Tab,T,m);
+    AfficherTab(T,m);
+    free(ch);
+    return 0;
+}
